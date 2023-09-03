@@ -58,6 +58,8 @@
       </a>
       <br>Bazel
     </td>
+  </tr>
+  <tr>
     <td align="center" width="96">
       <a href="#tech" >
         <img src="./img/linux.svg" width="48" height="48" alt="Linux" />
@@ -87,6 +89,12 @@
         <img src="./img/miro.svg" width="48" height="48" alt="Miro" />
       </a>
       <br>Miro
+    </td>
+    <td align="center" width="96">
+      <a href="#tech" >
+        <img src="./img/jira.svg" width="48" height="48" alt="Jira" />
+      </a>
+      <br>Jira
     </td>
   </tr>
 </table>
