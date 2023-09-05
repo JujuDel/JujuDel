@@ -1,0 +1,24 @@
+name: Metrics
+on:
+  # Schedule daily updates at 12.am
+  schedule: [{cron: "0 0 * * *"}]
+  # Run workflow manually
+  workflow_dispatch:
+  # Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: LeetCode
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/metrics.plugin.leetcode.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent
+          plugin_leetcode_user: user1771A
+          plugin_leetcode_ignored_skills: fundamental
