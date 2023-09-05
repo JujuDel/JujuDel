@@ -1,4 +1,4 @@
-name: Metrics
+name: Daily
 on:
   # Schedule daily updates at 12.am
   schedule: [{cron: "0 0 * * *"}]
