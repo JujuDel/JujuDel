@@ -16,7 +16,9 @@
 
 <br>
 
-<details><summary>📖 My 16personalities results!</summary><a href="https://www.16personalities.com/esfp-personality"><img alt="16personalities" src="./metrics/metrics.plugin.16personalities.svg" /></a></details>
+<a href="https://www.16personalities.com/esfp-personality">
+  <img alt="16personalities" src="./metrics/metrics.plugin.16personalities.svg" />
+</a>
 
 <br>
 
@@ -115,11 +117,11 @@
 
 > It looks like I'm not using Github a lot! Right?
 
-<a href="#stats">
+<a href="https://github-readme-streak-stats.herokuapp.com?user=JujuDel&theme=transparent&hide_border=true">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=JujuDel&theme=transparent&hide_border=true" alt="stats" align="left" />
 </a>
 
-<a href="#stats">
+<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=JujuDel&hide=TeX&layout=compact&theme=transparent">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JujuDel&hide=TeX&layout=compact&theme=transparent" alt="stats" align="right" />
 </a>
 
