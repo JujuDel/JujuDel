@@ -2,17 +2,21 @@
 
 <h3 align="left">I'm a Vision Perception Engineer and Software Engineer from France</h3>
 
-<h2 align="left" id="about-me">👨‍💻 About me</h2>
+<h2 align="left" id="about-me">😀 About me</h2>
 
 > Who am I?
 
-- 👨‍💻 &nbsp;I'm currently working at **[Zenseact]**
+- 🏢 &nbsp;I'm currently working at **[Zenseact]**
 - 🎓 &nbsp;I graduated from **[Telecom SudParis]** in 2018
 - 💬 &nbsp;I like to talk about **Chess**, **Climbing**, **Motorbikes**, **Animes**, **TV Shows**, **C++** and **RegEx**
 - ♟️ &nbsp;Come and play with me on **[Chess.com]**
 - 👀 &nbsp;Follow my *Coding Puzzles* and *Challenges* activities on **[CodinGame]**, **[LeetCode]** and **[HackerRank]**
 - 📫 &nbsp;Connect with me on **[LinkedIn]** or via email (julien.delclos@gmail.com)
-- 🙈 &nbsp;Check out my **[Gist]**
+- 🙈 &nbsp;Check out my **[Gists]**
+
+<br>
+
+<details><summary>📖 My 16personalities results!</summary><a href="https://www.16personalities.com/esfp-personality"><img alt="16personalities" src="./metrics/metrics.plugin.16personalities.svg" /></a></details>
 
 <br>
 
@@ -101,6 +105,12 @@
 
 <br>
 
+<h2 align="left" id="stats">👨‍💻 LeetCode</h2>
+
+<a href="https://leetcode.com/user1771A">
+  <img src="./metrics/metrics.plugin.leetcode.svg" alt="stats" align="middle" />
+</a>
+
 <h2 align="left" id="stats">🔥 My Github stats</h2>
 
 > It looks like I'm not using Github a lot! Right?
@@ -122,4 +132,4 @@
 [CodinGame]: https://www.codingame.com/profile/b944cb66159c494961db183c595578915353933 "CodinGame Profile"
 [LeetCode]: https://leetcode.com/user1771A/ "LeetCode Profile"
 [HackerRank]: https://www.hackerrank.com/julien_delclos "HackerRank Profile"
-[Gist]: https://gist.github.com/JujuDel "JujuDel Gists"
+[Gists]: https://gist.github.com/JujuDel "JujuDel Gists"
