@@ -131,13 +131,13 @@
 
 <h2 align="left" id="chess">♟️ My Chess games</h2>
 
-<p align="center">
-  <img src="https://0-sum-up.vercel.app/chess-current-games">
-</p>
+<a href="https://www.chess.com/member/luckyju">
+  <img src="https://0-sum-up.vercel.app/chess-current-games" align="center">
+</a>
 
-<p align="center">
-  <img src="https://0-sum-up.vercel.app/chess-last-games">
-</p>
+<a href="https://www.chess.com/member/luckyju">
+  <img src="https://0-sum-up.vercel.app/chess-last-games" align="center">
+</a>
 
 <h2 align="left" id="stats">🔥 My Github stats</h2>
 
