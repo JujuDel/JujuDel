@@ -71,7 +71,7 @@
       </a>
       <br>Linux
     </td>
-    <td align="center" width="96"> 
+    <td align="center" width="96">
       <a href="#tech" >
         <img src="./img/docker.svg" width="48" height="48" alt="Docker" />
       </a>
@@ -128,6 +128,16 @@
 <a href="https://leetcode.com/user1771A">
   <img src="./metrics/metrics.plugin.leetcode.svg" alt="stats" align="middle" />
 </a>
+
+<h2 align="left" id="chess">♟️ My Chess games</h2>
+
+<p align="center">
+  <img src="https://0-sum-up.vercel.app/chess-current-games">
+</p>
+
+<p align="center">
+  <img src="https://0-sum-up.vercel.app/chess-last-games">
+</p>
 
 <h2 align="left" id="stats">🔥 My Github stats</h2>
 

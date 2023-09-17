@@ -1,3 +1,10 @@
+# Chess.com updates
+
+TODO
+Main sources:
+https://github.com/andyruwruw/andyruwruw
+https://github.com/andyruwruw/chess-web-api
+
 # Github actions
 
 Source: [lowlighter/metrics](https://github.com/lowlighter/metrics)
