@@ -131,12 +131,18 @@
 
 <h2 align="left" id="chess">♟️ My Chess games</h2>
 
+> If you are in dark mode, you might not see the figures' title
+>
+> You can see here:
+>   - The daily game I'm currently playing
+>   - The last games I've finished
+
 <a href="https://www.chess.com/member/luckyju">
-  <img src="https://0-sum-up.vercel.app/chess-current-games" align="center">
+  <img src="https://jujudel-git-master-jujudel.vercel.app/chess-current-games" align="center">
 </a>
 
 <a href="https://www.chess.com/member/luckyju">
-  <img src="https://0-sum-up.vercel.app/chess-last-games" align="center">
+  <img src="https://jujudel-git-master-jujudel.vercel.app/chess-last-games" align="center">
 </a>
 
 <h2 align="left" id="stats">🔥 My Github stats</h2>

@@ -66,6 +66,7 @@ const getLastArchivedGames = async (): Promise<IFinishedGames> =>{
     return defaultLastFinishedGames;
   }
 
+  // Get the game archives
   const response_archive: IArchiveResponse = await WebApiRequest.builder()
     .withPath(`/pub/player/${Environment.getChessUsername()}/games/archives`)
     .withHeaders({'User-Agent': Environment.getEmail()})
@@ -76,15 +77,16 @@ const getLastArchivedGames = async (): Promise<IFinishedGames> =>{
     return defaultLastFinishedGames;
   }
 
+  // Get last month in the archive
   const url_last_month = response_archive.body.archives[response_archive.body.archives.length - 1];
-  const path = url_last_month.substring('https://api.chess.com'.length);
 
+  // TODO: Extend the search if not "enough" games were played last month
+  // Get the games played this month
   const response_games: IFinishedGamesResponse = await WebApiRequest.builder()
-    .withPath(path)
+    .withPath(url_last_month.substring('https://api.chess.com'.length))
     .withHeaders({'User-Agent': Environment.getEmail()})
     .build()
     .execute(HttpManager.get);
-
 
   if (response_games.statusCode === 200) {
     return response_games.body;
