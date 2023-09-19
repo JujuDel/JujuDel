@@ -27,25 +27,33 @@ const defaultCurrentDailyGames: IDailyGames = {
 /**
  * Requests current daily games from Chess.com.
  *
+ * @param {string} username The chess username to query the game for.
  * @returns {Promise<IDailyGames>} Object with array of game objects.
  */
-const getCurrentGames = async (): Promise<IDailyGames> =>{
+const getCurrentGames = async (username: string): Promise<IDailyGames> =>{
   if (Environment.useMockData()) {
     return MOCKED_CHESS_PLAYER_CURRENT_DAILY_CHESS_RESPONSE;
   }
 
-  const response: IDailyGamesResponse = await WebApiRequest.builder()
-    .withPath(`/pub/player/${Environment.getChessUsername()}/games`)
-    .withHeaders({'User-Agent': Environment.getEmail()})
-    .build()
-    .execute(HttpManager.get);
-  
-  const { statusCode } = response;
+  try
+  {
+    const response: IDailyGamesResponse = await WebApiRequest.builder()
+      .withPath(`/pub/player/${username}/games`)
+      .withHeaders({'User-Agent': Environment.getEmail()})
+      .build()
+      .execute(HttpManager.get);
 
-  if (statusCode === 200) {
-    return response.body;
-  } else {
-    return defaultCurrentDailyGames;
+    if (response.statusCode === 200) {
+      return response.body;
+    } else {
+      return defaultCurrentDailyGames;
+    }
+  }
+  catch (error) {
+    if (error.statusCode === 404) {
+      throw new Error('404');
+    }
+    throw error;
   }
 };
 
@@ -59,39 +67,48 @@ const defaultLastFinishedGames: IFinishedGames = {
 /**
  * Requests current daily games from Chess.com.
  *
+ * @param {string} username The chess username to query the game for.
  * @returns {Promise<IFinishedGames>} Object with array of game objects.
  */
-const getLastArchivedGames = async (): Promise<IFinishedGames> =>{
+const getLastArchivedGames = async (username: string): Promise<IFinishedGames> =>{
   if (Environment.useMockData()) {
     return defaultLastFinishedGames;
   }
 
-  // Get the game archives
-  const response_archive: IArchiveResponse = await WebApiRequest.builder()
-    .withPath(`/pub/player/${Environment.getChessUsername()}/games/archives`)
-    .withHeaders({'User-Agent': Environment.getEmail()})
-    .build()
-    .execute(HttpManager.get);
-  
-  if (response_archive.statusCode !== 200) {
-    return defaultLastFinishedGames;
+  try {
+    // Get the game archives
+    const response_archive: IArchiveResponse = await WebApiRequest.builder()
+      .withPath(`/pub/player/${username}/games/archives`)
+      .withHeaders({'User-Agent': Environment.getEmail()})
+      .build()
+      .execute(HttpManager.get);
+    
+    if (response_archive.statusCode !== 200) {
+      return defaultLastFinishedGames;
+    }
+
+    // Get last month in the archive
+    const url_last_month = response_archive.body.archives[response_archive.body.archives.length - 1];
+
+    // TODO: Extend the search if not "enough" games were played last month
+    // Get the games played this month
+    const response_games: IFinishedGamesResponse = await WebApiRequest.builder()
+      .withPath(url_last_month.substring('https://api.chess.com'.length))
+      .withHeaders({'User-Agent': Environment.getEmail()})
+      .build()
+      .execute(HttpManager.get);
+
+    if (response_games.statusCode === 200) {
+      return response_games.body;
+    } else {
+      return defaultLastFinishedGames;
+    }
   }
-
-  // Get last month in the archive
-  const url_last_month = response_archive.body.archives[response_archive.body.archives.length - 1];
-
-  // TODO: Extend the search if not "enough" games were played last month
-  // Get the games played this month
-  const response_games: IFinishedGamesResponse = await WebApiRequest.builder()
-    .withPath(url_last_month.substring('https://api.chess.com'.length))
-    .withHeaders({'User-Agent': Environment.getEmail()})
-    .build()
-    .execute(HttpManager.get);
-
-  if (response_games.statusCode === 200) {
-    return response_games.body;
-  } else {
-    return defaultLastFinishedGames;
+  catch (error) {
+    if (error.statusCode === 404) {
+      throw new Error('404');
+    }
+    throw error;
   }
 };
 

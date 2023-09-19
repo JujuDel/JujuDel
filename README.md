@@ -106,6 +106,8 @@
 
 <h2 align="left" id="stats">🎓 Certifications</h2>
 
+> From time to time, lets try to learn new things or to consolidate existing skills.
+
 - Coursera - DeepLearning.ai
   1. <a href="https://www.coursera.org/account/accomplishments/certificate/97PU3C7NJSLQ">Neural Networks and Deep Learning</a>
   2. <a href="https://www.coursera.org/account/accomplishments/certificate/HB476JH9JZ3U">Improving Deep Neural Networks: Hyper parameter tuning, Regularization and Optimization</a>
@@ -125,6 +127,8 @@
 
 <h2 align="left" id="stats">👨‍💻 LeetCode</h2>
 
+> If I'm not lazy, I do at least the daily puzzle.
+
 <a href="https://leetcode.com/user1771A">
   <img src="./metrics/metrics.plugin.leetcode.svg" alt="stats" align="middle" />
 </a>
@@ -134,15 +138,17 @@
 > If you are in dark mode, you might not see the figures' title
 >
 > You can see here:
->   - The daily game I'm currently playing
->   - The last games I've finished
+>   - The daily game I'm currently playing (vercel [link](https://jujudel-git-master-jujudel.vercel.app/chess-current-games/?username=LuckyJu))
+>   - The last games I've finished (vercel [link](https://jujudel-git-master-jujudel.vercel.app/chess-last-games/?username=LuckyJu))
+>
+> (You can replace my username with yours in the URL)
 
 <a href="https://www.chess.com/member/luckyju">
-  <img src="https://jujudel-git-master-jujudel.vercel.app/chess-current-games" align="center">
+  <img src="https://jujudel-git-master-jujudel.vercel.app/chess-current-games/?username=LuckyJu" align="center">
 </a>
 
 <a href="https://www.chess.com/member/luckyju">
-  <img src="https://jujudel-git-master-jujudel.vercel.app/chess-last-games" align="center">
+  <img src="https://jujudel-git-master-jujudel.vercel.app/chess-last-games/?username=LuckyJu" align="center">
 </a>
 
 <h2 align="left" id="stats">🔥 My Github stats</h2>

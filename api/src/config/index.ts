@@ -23,6 +23,16 @@ export const ERROR_MESSAGE_405 = 'Endpoint blocked: Not in development environme
 export const ERROR_MESSAGE_500 = 'Something went terribly wrong...';
 
 /**
+ * Message for 500 on pseudo not passed.
+ */
+export const ERROR_MESSAGE_500_NO_USER = 'Username not passed. Add it in the URL like e.g. chess-last-games/?username=LuckyJu';
+
+/**
+ * Message for 500 on pseudo not found.
+ */
+export const ERROR_MESSAGE_500_BAD_USER = 'Data for user not found... Does the URL contain existing username? e.g. chess-last-games/?username=LuckyJu';
+
+/**
  * Chess colors for piece images.
  */
 export const CHESS_COLORS: string[] = [

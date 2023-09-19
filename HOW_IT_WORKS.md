@@ -135,7 +135,7 @@ Extract the `Request` from the `chess-web-api` and use with the corrected user-a
 ```diff
 -  const response: ICurrentDailyGamesResponse = await chessAPI.getPlayerCurrentDailyChess(Environment.getChessUsername());
 +  const response: IDailyGamesResponse = await WebApiRequest.builder()
-+   .withPath(`/pub/player/${Environment.getChessUsername()}/games`)
++   .withPath(`/pub/player/${username}/games`)
 +   .withHeaders({'User-Agent': Environment.getEmail()})
 +   .build()
 +   .execute(HttpManager.get);
@@ -143,12 +143,12 @@ Extract the `Request` from the `chess-web-api` and use with the corrected user-a
 
 ### Adding the last played games
 
-Query the last played games 
+Query the last played games
 
 ```ts
   // Get the game archives
   const response_archive: IArchiveResponse = await WebApiRequest.builder()
-    .withPath(`/pub/player/${Environment.getChessUsername()}/games/archives`)
+    .withPath(`/pub/player/${username}/games/archives`)
     .withHeaders({'User-Agent': Environment.getEmail()})
     .build()
     .execute(HttpManager.get);
@@ -172,7 +172,6 @@ Query the last played games
 ### Next
 
 TBD:
-- chess.com username in URL instead than in `Environment`
 - more things to viz
 - dark mode?
 - ...
