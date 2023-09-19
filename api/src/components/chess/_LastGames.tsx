@@ -27,7 +27,7 @@ export const LastGames: React.FC<IFinishedGamesParameters> = ({
 }: IFinishedGamesParameters) => {
   return (
     <ConvertSVG
-      height="246"
+      height="300"
       width="600">
       <Text
         id="title"
@@ -61,7 +61,11 @@ export const LastGames: React.FC<IFinishedGamesParameters> = ({
 
             {!game.noGame && (
               <Text className="username" color="grey-lighter">
+                { game.time_class }
+                <br/>
                 { game.isWhite ? game.white.result : game.black.result } vs. { game.isWhite ? game.black.username : game.white.username } ({ game.isWhite ? game.black.rating : game.white.rating })
+                <br/>
+                { game.end_time }
               </Text>
             )}
           </div>

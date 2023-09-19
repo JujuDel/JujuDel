@@ -54,6 +54,7 @@ export const convertDailyGameObject = (game: IDailyGame): IConvertedDailyGameObj
     isWhite,
     noGame: false,
     position: convertFenToArray(isWhite, game.fen),
+    time_class: 'Daily',
     white,
   };
 };
@@ -61,11 +62,13 @@ export const convertDailyGameObject = (game: IDailyGame): IConvertedDailyGameObj
 /**
  * Converts recieved game objects to simplified objects.
  *
+ * @param {IFinishedGame} username The username of the current player.
  * @param {IFinishedGame} game Recieved game object.
  * @returns {IConvertedFinishedGameObject} Converted game object.
  */
-export const convertFinishedGameObject = (game: IFinishedGame): IConvertedFinishedGameObject => {
-  const isWhite: boolean = game.white.username === Environment.getChessUsername();
+export const convertFinishedGameObject = (game: IFinishedGame, username: string): IConvertedFinishedGameObject => {
+  const isWhite: boolean = game.white.username === username;
+  const time_class: string = game.time_class.charAt(0).toUpperCase() + game.time_class.slice(1);
 
   if (WIN_RESULTS.includes(game.black.result)) {
     game.black.result = "WIN";
@@ -84,6 +87,7 @@ export const convertFinishedGameObject = (game: IFinishedGame): IConvertedFinish
     isWhite,
     noGame: false,
     position: convertFenToArray(isWhite, game.fen),
+    time_class,
     white: game.white,
   };
 };
@@ -99,6 +103,7 @@ export const createEmptyGameObject = (): IConvertedDailyGameObject | IConvertedF
   isWhite: true,
   noGame: true,
   position: convertFenToArray(true, EMPTY_CHESS_BOARD_FEN),
+  time_class: null,
   white: null,
 });
 

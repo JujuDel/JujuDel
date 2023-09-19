@@ -31,5 +31,6 @@ export interface IConvertedDailyGameObject {
   isWhite: boolean;
   noGame: boolean;
   position: Array<Array<string>>;
+  time_class: string;
   white: string;
 }

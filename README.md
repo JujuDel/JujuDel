@@ -141,7 +141,7 @@
 >   - The daily game I'm currently playing (vercel [link](https://jujudel-git-master-jujudel.vercel.app/chess-current-games/?username=LuckyJu))
 >   - The last games I've finished (vercel [link](https://jujudel-git-master-jujudel.vercel.app/chess-last-games/?username=LuckyJu))
 >
-> (You can replace my username with yours in the URL)
+> (You can replace my username with yours in the vercel link)
 
 <a href="https://www.chess.com/member/luckyju">
   <img src="https://jujudel-git-master-jujudel.vercel.app/chess-current-games/?username=LuckyJu" align="center">

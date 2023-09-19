@@ -27,6 +27,7 @@ export interface IFinishedGame {
   pgn: string;
   start_time: number;
   end_time: number;
+  time_class: string;
   time_control: string;
   rules: string;
   eco?: string;    
@@ -55,5 +56,6 @@ export interface IConvertedFinishedGameObject {
   isWhite: boolean;
   noGame: boolean;
   position: Array<Array<string>>;
+  time_class: string;
   white: IPlayer;
 }
