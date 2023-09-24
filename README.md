@@ -138,17 +138,17 @@
 > If you are in dark mode, you might not see the figures' title
 >
 > You can see here:
->   - The daily game I'm currently playing (vercel [link](https://jujudel-git-master-jujudel.vercel.app/chess-current-games/?username=LuckyJu))
->   - The last games I've finished (vercel [link](https://jujudel-git-master-jujudel.vercel.app/chess-last-games/?username=LuckyJu))
+>   - The daily game I'm currently playing (vercel [link](https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJu))
+>   - The last games I've finished (vercel [link](https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJu))
 >
 > (You can replace my username with yours in the vercel link)
 
 <a href="https://www.chess.com/member/luckyju">
-  <img src="https://jujudel-git-master-jujudel.vercel.app/chess-current-games/?username=LuckyJu" align="center">
+  <img src="https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJu" align="center">
 </a>
 
 <a href="https://www.chess.com/member/luckyju">
-  <img src="https://jujudel-git-master-jujudel.vercel.app/chess-last-games/?username=LuckyJu" align="center">
+  <img src="https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJu" align="center">
 </a>
 
 <h2 align="left" id="stats">🔥 My Github stats</h2>

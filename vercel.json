@@ -1,5 +1,0 @@
-{
-  "name": "JujuDel/JujuDel",
-  "version": 2,
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/pages/$1" }]
-}

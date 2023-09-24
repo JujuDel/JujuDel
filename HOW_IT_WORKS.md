@@ -4,7 +4,7 @@ This README is basically constructed based on 2 parts:
  - svg being updated automatically (see [Github Actions](#github-actions))
    - what is inside the folder `metrics`
  - vercel app sending requests to Chess.com Public API (see [Chess.com updates](#chesscom-updates))
-   - what is inside the folder `api`
+   - coming from my other repo [chesscom-vercel](https://github.com/JujuDel/chesscom-vercel)
 
 ## Github actions
 
@@ -117,61 +117,25 @@ A svg in `metrics/metrics.plugin.16personalities.svg`
 
 ## Chess.com updates
 
-I came accross this really nice [README](https://github.com/andyruwruw/andyruwruw) from [andyruwruw](https://github.com/andyruwruw) and wanted to use it here as well.
-
-Unfortunately, at the time I updated my README, the [chess-web-api](https://www.npmjs.com/package/chess-web-api) wrapper (also from [andyruwruw](https://github.com/andyruwruw)) is suffering from the recent [Breaking Change: User-Agent Contact Info Required](https://www.chess.com/news/view/breaking-change-user-agent-contact-info-required) update from Chess.com (See [issue](https://github.com/andyruwruw/chess-web-api/issues/35))
-
-So instead, this repo just contain **a copy of the initial andyruwruw's [code](https://github.com/andyruwruw/andyruwruw/tree/master/api)**, with some modifications (**new features**, **bug fix**) explained below.
+See other repo https://github.com/JujuDel/chesscom-vercel ([README.md](https://github.com/JujuDel/chesscom-vercel/blob/master/README.md) / [HOW_IT_WORKS.md](https://github.com/JujuDel/chesscom-vercel/blob/master/HOW-IT-WORKS.md))
 
 ### Available pages
 
-- https://jujudel-git-master-jujudel.vercel.app/chess-current-games
-- https://jujudel-git-master-jujudel.vercel.app/chess-last-games
+- https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJu
+- https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJu
 
-### Replacing the `chess-web-api`
+### How it works
 
-Extract the `Request` from the `chess-web-api` and use with the corrected user-agent required by the chess.com public API
+In your README.md, simply add the following, and change your username accordingly:
 
-```diff
--  const response: ICurrentDailyGamesResponse = await chessAPI.getPlayerCurrentDailyChess(Environment.getChessUsername());
-+  const response: IDailyGamesResponse = await WebApiRequest.builder()
-+   .withPath(`/pub/player/${username}/games`)
-+   .withHeaders({'User-Agent': Environment.getEmail()})
-+   .build()
-+   .execute(HttpManager.get);
+```markdown
+<!-- This will show the currently played daily games -->
+<a href="https://www.chess.com/member/luckyju">
+  <img src="https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJu" align="center">
+</a>
+
+<!-- This will show the last finished games -->
+<a href="https://www.chess.com/member/luckyju">
+  <img src="https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJu" align="center">
+</a>
 ```
-
-### Adding the last played games
-
-Query the last played games
-
-```ts
-  // Get the game archives
-  const response_archive: IArchiveResponse = await WebApiRequest.builder()
-    .withPath(`/pub/player/${username}/games/archives`)
-    .withHeaders({'User-Agent': Environment.getEmail()})
-    .build()
-    .execute(HttpManager.get);
-  
-  if (response_archive.statusCode !== 200) {
-    return defaultLastFinishedGames;
-  }
-
-  // Get last month in the archive
-  const url_last_month = response_archive.body.archives[response_archive.body.archives.length - 1];
-
-  // TODO: Extend the search if not "enough" games were played last month
-  // Get the games played this month
-  const response_games: IFinishedGamesResponse = await WebApiRequest.builder()
-    .withPath(url_last_month.substring('https://api.chess.com'.length))
-    .withHeaders({'User-Agent': Environment.getEmail()})
-    .build()
-    .execute(HttpManager.get);
-```
-
-### Next
-
-TBD:
-- more things to viz
-- dark mode?
-- ...
