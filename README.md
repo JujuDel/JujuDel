@@ -8,7 +8,7 @@
 
 - 🏢 &nbsp;I'm currently working at **[Zenseact]**, in Göteborg (🇸🇪)
 - 🎓 &nbsp;I graduated from **[Telecom SudParis]** in 2018
-- 💬 &nbsp;I like to talk about **Chess**, **Climbing**, **Motorbikes**, **Animes**, **TV Shows**, **C++** and **RegEx**
+- 💬 &nbsp;I like to talk about **Chess**, **Climbing**, **Motorbikes**, **Animes**, **TV Shows**, **Deep Learning**, **C++** and **RegEx**
 - ♟️ &nbsp;Come and play with me on **[Chess.com]**
 - 👀 &nbsp;Follow my *Coding Puzzles* and *Challenges* activities on **[CodinGame]**, **[LeetCode]** and **[HackerRank]**
 - 📫 &nbsp;Connect with me on **[LinkedIn]** or via email (julien.delclos@gmail.com)
