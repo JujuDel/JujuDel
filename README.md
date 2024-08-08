@@ -6,7 +6,7 @@
 
 > Who am I?
 
-- 🏢 &nbsp;I'm currently working at **[Zenseact]**, in Göteborg (🇸🇪)
+- 🏢 &nbsp;I'm currently working at **[StereoLabs]**, in Montrouge (🇫🇷)
 - 🎓 &nbsp;I graduated from **[Telecom SudParis]** in 2018
 - 💬 &nbsp;I like to talk about **Chess**, **Climbing**, **Motorbikes**, **Animes**, **TV Shows**, **Deep Learning**, **C++** and **RegEx**
 - ♟️ &nbsp;Come and play with me on **[Chess.com]**
@@ -168,6 +168,7 @@
 <!-- links -->
 
 [Zenseact]: https://zenseact.com/ "Zenseact Home Page"
+[StereoLabs]: https://www.stereolabs.com/en-fr "StereoLabs Home Page"
 [Telecom SudParis]: https://www.telecom-sudparis.eu/en/ "Telecom SudParis Home Page"
 [Chess.com]: https://www.chess.com/member/luckyju "Chess.com Profile"
 [LinkedIn]: https://www.linkedin.com/in/julien-delclos-19b292106 "Julien DELCLOS LinkedIn"
