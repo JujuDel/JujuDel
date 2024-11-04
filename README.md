@@ -17,8 +17,12 @@
 
 <br>
 
+<a href="https://www.16personalities.com/estj-personality">
+  <img alt="16personalities_estj" src="./metrics/metrics.plugin.16personalities_2.svg" />
+</a>
+
 <a href="https://www.16personalities.com/esfp-personality">
-  <img alt="16personalities" src="./metrics/metrics.plugin.16personalities.svg" />
+  <img alt="16personalities_esfp" src="./metrics/metrics.plugin.16personalities.svg" />
 </a>
 
 <h2 align="left" id="tech">🛠️ Tech</h2>
