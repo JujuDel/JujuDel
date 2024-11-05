@@ -9,7 +9,7 @@ jobs:
       contents: write
     steps:
       - name: MBTI Personality profile
-        uses: lowlighter/metrics@latest
+        uses: JujuDel/metrics@Fix_16personalities_plugin_getComputedStyle
         with:
           filename: metrics/metrics.plugin.16personalities.svg
           token: ${{ secrets.METRICS_TOKEN }}
