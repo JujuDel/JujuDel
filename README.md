@@ -1,6 +1,6 @@
 <h1 align="left" id="title">👋 Hello there! I'm Julien DELCLOS</h1>
 
-<h3 align="left">I'm a Vision Perception Engineer and Software Engineer from France</h3>
+<h3 align="left">I'm a Deep Learning - Computer Vision - Software Engineer from France</h3>
 
 <h2 align="left" id="about-me">😀 About me</h2>
 
@@ -17,8 +17,16 @@
 
 <br>
 
+Most recent MBTI result:
+
 <a href="https://www.16personalities.com/profiles/7fd4a3833c7be">
-  <img alt="MBTI Julien" src="./metrics/metrics.plugin.16personalities.svg" />
+  <img alt="MBTI Julien now" src="./metrics/metrics.plugin.16personalities.svg" />
+</a>
+
+Previous MBTI result:
+
+<a href="https://www.16personalities.com/esfp-personality">
+  <img alt="MBTI Julien then" src="./metrics/metrics.plugin.16personalities.prev.svg" />
 </a>
 
 <h2 align="left" id="tech">🛠️ Tech</h2>
