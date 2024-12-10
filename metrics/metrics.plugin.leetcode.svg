@@ -63,16 +63,16 @@
                         Skills
                     </h2>
                     <div class="topics">
-                        <div class="label advanced"><span class="dot">⬤</span> Dynamic Programming <span class="count">x124</span></div>
-                        <div class="label intermediate"><span class="dot">⬤</span> Hash Table <span class="count">x124</span></div>
-                        <div class="label intermediate"><span class="dot">⬤</span> Math <span class="count">x108</span></div>
+                        <div class="label advanced"><span class="dot">⬤</span> Dynamic Programming <span class="count">x125</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Hash Table <span class="count">x125</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Math <span class="count">x109</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Depth-First Search <span class="count">x98</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Binary Search <span class="count">x88</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Breadth-First Search <span class="count">x86</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Tree <span class="count">x76</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Binary Tree <span class="count">x68</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Greedy <span class="count">x61</span></div>
-                        <div class="label intermediate"><span class="dot">⬤</span> Bit Manipulation <span class="count">x42</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Bit Manipulation <span class="count">x43</span></div>
                     </div>
                 </section>
                 <section class="leetcode subsection">
