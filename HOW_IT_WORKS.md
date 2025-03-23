@@ -121,8 +121,8 @@ See other repo https://github.com/JujuDel/chesscom-vercel ([README.md](https://g
 
 ### Available pages
 
-- https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJu
-- https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJu
+- https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJujuD
+- https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJujuD
 
 ### How it works
 
@@ -130,12 +130,12 @@ In your README.md, simply add the following, and change your username accordingl
 
 ```markdown
 <!-- This will show the currently played daily games -->
-<a href="https://www.chess.com/member/luckyju">
-  <img src="https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJu" align="center">
+<a href="https://www.chess.com/member/LuckyJujuD">
+  <img src="https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJujuD" align="center">
 </a>
 
 <!-- This will show the last finished games -->
-<a href="https://www.chess.com/member/luckyju">
-  <img src="https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJu" align="center">
+<a href="https://www.chess.com/member/LuckyJujuD">
+  <img src="https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJujuD" align="center">
 </a>
 ```

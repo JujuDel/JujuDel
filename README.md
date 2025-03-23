@@ -146,17 +146,17 @@ Previous MBTI result:
 > If you are in dark mode, you might not see the figures' title
 >
 > You can see here:
->   - The daily game I'm currently playing (vercel [link](https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJu))
->   - The last games I've finished (vercel [link](https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJu))
+>   - The daily game I'm currently playing (vercel [link](https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJujuD))
+>   - The last games I've finished (vercel [link](https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJujuD))
 >
 > (You can replace my username with yours in the vercel link)
 
-<a href="https://www.chess.com/member/luckyju">
-  <img src="https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJu" align="center">
+<a href="https://www.chess.com/member/LuckyJujuD">
+  <img src="https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJujuD" align="center">
 </a>
 
-<a href="https://www.chess.com/member/luckyju">
-  <img src="https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJu" align="center">
+<a href="https://www.chess.com/member/LuckyJujuD">
+  <img src="https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJujuD" align="center">
 </a>
 
 <h2 align="left" id="stats">🔥 My Github stats</h2>
@@ -178,7 +178,7 @@ Previous MBTI result:
 [Zenseact]: https://zenseact.com/ "Zenseact Home Page"
 [StereoLabs]: https://www.stereolabs.com/en-fr "StereoLabs Home Page"
 [Telecom SudParis]: https://www.telecom-sudparis.eu/en/ "Telecom SudParis Home Page"
-[Chess.com]: https://www.chess.com/member/luckyju "Chess.com Profile"
+[Chess.com]: https://www.chess.com/member/LuckyJujuD "Chess.com Profile"
 [LinkedIn]: https://www.linkedin.com/in/julien-delclos-19b292106 "Julien DELCLOS LinkedIn"
 [CodinGame]: https://www.codingame.com/profile/b944cb66159c494961db183c595578915353933 "CodinGame Profile"
 [LeetCode]: https://leetcode.com/user1771A/ "LeetCode Profile"
