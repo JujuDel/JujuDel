@@ -9,7 +9,7 @@
 - 🏢 &nbsp;I'm currently working at **[StereoLabs]**, in Montrouge (🇫🇷)
 - 🎓 &nbsp;I graduated from **[Telecom SudParis]** in 2018
 - 💬 &nbsp;I like to talk about **Chess**, **Climbing**, **Motorbikes**, **Animes**, **TV Shows**, **Deep Learning**, **C++** and **RegEx**
-- ♟️ &nbsp;Come and play with me on **[Chess.com]**
+- ♟️ &nbsp;Come and play with me on **[Lichess.org]** or **[Chess.com]**
 - 👀 &nbsp;Follow my *Coding Puzzles* and *Challenges* activities on **[CodinGame]**, **[LeetCode]** and **[HackerRank]**
 - 📫 &nbsp;Connect with me on **[LinkedIn]** or via email (julien.delclos@gmail.com)
 - 🙈 &nbsp;Check out my **[Gists]**
@@ -141,7 +141,7 @@ Previous MBTI result:
   <img src="./metrics/metrics.plugin.leetcode.svg" alt="stats" align="middle" />
 </a>
 
-<h2 align="left" id="chess">♟️ My Chess games</h2>
+<h2 align="left" id="chess">♟️ My Chess games (Chess.com) </h2>
 
 > If you are in dark mode, you might not see the figures' title
 >
@@ -179,6 +179,7 @@ Previous MBTI result:
 [StereoLabs]: https://www.stereolabs.com/en-fr "StereoLabs Home Page"
 [Telecom SudParis]: https://www.telecom-sudparis.eu/en/ "Telecom SudParis Home Page"
 [Chess.com]: https://www.chess.com/member/LuckyJujuD "Chess.com Profile"
+[Lichess.org]: https://lichess.org/@/luckyjuju "Lichess.org Profile"
 [LinkedIn]: https://www.linkedin.com/in/julien-delclos-19b292106 "Julien DELCLOS LinkedIn"
 [CodinGame]: https://www.codingame.com/profile/b944cb66159c494961db183c595578915353933 "CodinGame Profile"
 [LeetCode]: https://leetcode.com/user1771A/ "LeetCode Profile"
