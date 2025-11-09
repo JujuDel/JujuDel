@@ -1,6 +1,6 @@
 <h1 align="left" id="title">👋 Hello there! I'm Julien DELCLOS</h1>
 
-<h3 align="left">I'm a Deep Learning - Computer Vision - Software Engineer from France</h3>
+<h3 align="left">I'm a Senior Software Engineer / Computer Vision Engineer from France</h3>
 
 <h2 align="left" id="about-me">😀 About me</h2>
 
@@ -185,3 +185,4 @@ Previous MBTI result:
 [LeetCode]: https://leetcode.com/user1771A/ "LeetCode Profile"
 [HackerRank]: https://www.hackerrank.com/julien_delclos "HackerRank Profile"
 [Gists]: https://gist.github.com/JujuDel "JujuDel Gists"
+
