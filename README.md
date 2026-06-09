@@ -6,14 +6,14 @@
 
 > Who am I?
 
-- 🏢 &nbsp;I'm currently working at **[StereoLabs]**, in Montrouge (🇫🇷)
+- 🏢 &nbsp;I'm currently working at **[DroneShield]**, in Sydney (🇦🇺)
 - 🎓 &nbsp;I graduated from **[Telecom SudParis]** in 2018
 - 💬 &nbsp;I like to talk about **Chess**, **Climbing**, **Motorbikes**, **Animes**, **TV Shows**, **Deep Learning**, **C++** and **RegEx**
 - ♟️ &nbsp;Come and play with me on **[Lichess.org]** or **[Chess.com]**
 - 👀 &nbsp;Follow my *Coding Puzzles* and *Challenges* activities on **[CodinGame]**, **[LeetCode]** and **[HackerRank]**
 - 📫 &nbsp;Connect with me on **[LinkedIn]** or via email (julien.delclos@gmail.com)
 - 🙈 &nbsp;Check out my **[Gists]**
-- ✈️ &nbsp;I worked in Paris-Saclay (🇫🇷), Turin (🇮🇹), Stuttgart (🇩🇪) and Göteborg (🇸🇪)
+- ✈️ &nbsp;I worked in Paris-Saclay (CEA-List 🇫🇷), Turin (Cedeo.net 🇮🇹), Stuttgart (Bosch/TnS 🇩🇪), Göteborg ([Zenseact] 🇸🇪) and Montrouge ([Stereolabs] 🇫🇷)
 
 <br>
 
@@ -177,6 +177,7 @@ Previous MBTI result:
 
 [Zenseact]: https://zenseact.com/ "Zenseact Home Page"
 [StereoLabs]: https://www.stereolabs.com/en-fr "StereoLabs Home Page"
+[DroneShield]: https://www.droneshield.com "DroneShield Home Page"
 [Telecom SudParis]: https://www.telecom-sudparis.eu/en/ "Telecom SudParis Home Page"
 [Chess.com]: https://www.chess.com/member/LuckyJujuD "Chess.com Profile"
 [Lichess.org]: https://lichess.org/@/luckyjuju "Lichess.org Profile"
