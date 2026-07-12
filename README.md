@@ -7,6 +7,7 @@
 > Who am I?
 
 - 🏢 &nbsp;I'm currently working at **[DroneShield]**, in Sydney (🇦🇺)
+- 🌐 &nbsp;Visit **[my portfolio website]**
 - 🎓 &nbsp;I graduated from **[Telecom SudParis]** in 2018
 - 💬 &nbsp;I like to talk about **Chess**, **Climbing**, **Motorbikes**, **Animes**, **TV Shows**, **Deep Learning**, **C++** and **RegEx**
 - ♟️ &nbsp;Come and play with me on **[Lichess.org]** or **[Chess.com]**
@@ -186,4 +187,5 @@ Previous MBTI result:
 [LeetCode]: https://leetcode.com/user1771A/ "LeetCode Profile"
 [HackerRank]: https://www.hackerrank.com/julien_delclos "HackerRank Profile"
 [Gists]: https://gist.github.com/JujuDel "JujuDel Gists"
+[my portfolio website]: https://jujudel.github.io "Julien's portfolio website"
 
