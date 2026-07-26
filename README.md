@@ -1,6 +1,6 @@
 <h1 align="left" id="title">👋 Hello there! I'm Julien DELCLOS</h1>
 
-<h3 align="left">I'm a Senior Software Engineer / Computer Vision Engineer from France</h3>
+<h3 align="left">Senior Software / Computer Vision Engineer &mdash; French, based in Sydney 🇦🇺</h3>
 
 <h2 align="left" id="about-me">😀 About me</h2>
 
@@ -8,8 +8,9 @@
 
 - 🏢 &nbsp;I'm currently working at **[DroneShield]**, in Sydney (🇦🇺)
 - 🌐 &nbsp;Visit **[my portfolio website]**
+- 📺 &nbsp;I built and maintain **[ShowTracker]**, a TV series tracker
 - 🎓 &nbsp;I graduated from **[Telecom SudParis]** in 2018
-- 💬 &nbsp;I like to talk about **Chess**, **Climbing**, **Motorbikes**, **Animes**, **TV Shows**, **Deep Learning**, **C++** and **RegEx**
+- 💬 &nbsp;I like to talk about **Chess**, **Climbing**, **Motorbikes**, **Animes**, **TV Shows** (enough to build [a tracker for them][ShowTracker]), **Deep Learning**, **C++** and **RegEx**
 - ♟️ &nbsp;Come and play with me on **[Lichess.org]** or **[Chess.com]**
 - 👀 &nbsp;Follow my *Coding Puzzles* and *Challenges* activities on **[CodinGame]**, **[LeetCode]** and **[HackerRank]**
 - 📫 &nbsp;Connect with me on **[LinkedIn]** or via email (julien.delclos@gmail.com)
@@ -18,17 +19,18 @@
 
 <br>
 
-Most recent MBTI result:
+<h2 align="left" id="built">🚀 Things I've built</h2>
 
-<a href="https://www.16personalities.com/profiles/7fd4a3833c7be">
-  <img alt="MBTI Julien now" src="./metrics/metrics.plugin.16personalities.svg" />
-</a>
+> Side projects that shipped and are still alive.
 
-Previous MBTI result:
-
-<a href="https://www.16personalities.com/esfp-personality">
-  <img alt="MBTI Julien then" src="./metrics/metrics.plugin.16personalities.prev.svg" />
-</a>
+- **[ShowTracker]** &mdash; a TV series tracker: what to watch next, how many episodes are
+  left, what's coming out and when. Built it, maintain it, use it.
+- **[My portfolio website][my portfolio website]** &mdash; the hero is a live panoptic-segmentation
+  carousel running on my own photos: auto pre-annotation (Mask R-CNN for the things,
+  MobileSAM for the stuff), a bit of post-processing correction, then a resolve step that composes
+  the final masks and instance boxes. No framework, no build step.
+- **[chesscom-vercel]** &mdash; the little Vercel app that draws the Chess.com cards further
+  down this page. Swap the username in the URL and it works for you too.
 
 <h2 align="left" id="tech">🛠️ Tech</h2>
 
@@ -113,7 +115,7 @@ Previous MBTI result:
   </tr>
 </table>
 
-<h2 align="left" id="stats">🎓 Certifications</h2>
+<h2 align="left" id="certifications">🎓 Certifications</h2>
 
 > From time to time, lets try to learn new things or to consolidate existing skills.
 
@@ -134,7 +136,7 @@ Previous MBTI result:
       - Problem Solving (<a href="https://www.hackerrank.com/certificates/baec44ae8e68">Basic</a> / <a href="https://www.hackerrank.com/certificates/b420d1c21061">Intermediate</a>)
       - Python (<a href="https://www.hackerrank.com/certificates/0b21a0a1990d">Basic</a>)
 
-<h2 align="left" id="stats">👨‍💻 LeetCode</h2>
+<h2 align="left" id="leetcode">👨‍💻 LeetCode</h2>
 
 > If I'm not lazy, I do at least the daily puzzle.
 
@@ -160,18 +162,32 @@ Previous MBTI result:
   <img src="https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJujuD" align="center">
 </a>
 
+<h2 align="left" id="mbti">🧩 MBTI, for what it's worth</h2>
+
+Most recent MBTI result:
+
+<a href="https://www.16personalities.com/profiles/7fd4a3833c7be">
+  <img alt="MBTI Julien now" src="./metrics/metrics.plugin.16personalities.svg" />
+</a>
+
+Previous MBTI result:
+
+<a href="https://www.16personalities.com/esfp-personality">
+  <img alt="MBTI Julien then" src="./metrics/metrics.plugin.16personalities.prev.svg" />
+</a>
+
 <h2 align="left" id="stats">🔥 My Github stats</h2>
 
 > It looks like I'm not using Github a lot! Right?
 >
 > *Note that these stats only reflects my public repos and doesn't reflect experience or skill level.*
 
-<a href="https://github-readme-streak-stats.herokuapp.com?user=JujuDel&theme=transparent&hide_border=true">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=JujuDel&theme=transparent&hide_border=true" alt="stats" align="left" />
+<a href="https://streak-stats.demolab.com?user=JujuDel&theme=transparent&hide_border=true">
+  <img src="https://streak-stats.demolab.com?user=JujuDel&theme=transparent&hide_border=true" alt="stats" align="left" />
 </a>
 
-<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=JujuDel&hide=TeX&layout=compact&theme=transparent">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JujuDel&hide=TeX&layout=compact&theme=transparent" alt="stats" align="left" />
+<a href="https://github.com/JujuDel?tab=repositories">
+  <img src="./metrics/metrics.plugin.languages.svg" alt="Most used languages" align="left" />
 </a>
 
 <!-- links -->
@@ -187,5 +203,7 @@ Previous MBTI result:
 [LeetCode]: https://leetcode.com/user1771A/ "LeetCode Profile"
 [HackerRank]: https://www.hackerrank.com/julien_delclos "HackerRank Profile"
 [Gists]: https://gist.github.com/JujuDel "JujuDel Gists"
-[my portfolio website]: https://jujudel.github.io "Julien's portfolio website"
+[chesscom-vercel]: https://github.com/JujuDel/chesscom-vercel "The Vercel app behind the Chess.com cards"
+[ShowTracker]: https://showtracker.dev "ShowTracker — track TV shows, episodes left and upcoming releases"
+[my portfolio website]: https://juliendelclos.com "Julien's portfolio website"
 
