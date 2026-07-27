@@ -1,7 +1,7 @@
-name: Daily
+name: Weekly
 on:
-  # Schedule daily updates at 12.am
-  schedule: [{cron: "0 0 * * *"}]
+  # Schedule weekly updates at 12.am, on sunday
+  schedule: [{cron: "0 0 * * 0"}]
   # Run workflow manually
   workflow_dispatch:
 jobs:
