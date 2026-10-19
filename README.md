@@ -1,40 +1,29 @@
 <h1 align="left" id="title">👋 Hello there! I'm Julien DELCLOS</h1>
 
-<h3 align="left">Senior Software / Computer Vision Engineer &mdash; French, based in Sydney 🇦🇺</h3>
+<h3 align="left">Senior Computer Vision Engineer &mdash; real-time perception on NVIDIA edge (C++ · CUDA · TensorRT), 3D vision. French (EU citizen)</h3>
 
-<h2 align="left" id="about-me">😀 About me</h2>
+<h2 align="left" id="work">🧭 Selected work</h2>
 
-> Who am I?
+- **[panoptic-prelabel]** &mdash; semi-automatic panoptic annotation (Mask R-CNN + MobileSAM, CVAT,
+  deterministic COCO-panoptic resolve). On a T4, Mask R-CNN runs in 107&nbsp;ms with CUDA and
+  **46&nbsp;ms with TensorRT FP16**. Its masks drive the carousel on [juliendelclos.com][my portfolio website] ([site code][portfolio-code]).
+- **ZED SDK** &mdash; co-maintained Stereolabs' public [zed-sdk] and [zed-python-api] repositories and published
+  12 releases (5.0.3 → 5.3.0, 2025–2026), the later ones as Lead Software Engineer.
+- **[ShowTracker]** &mdash; my TV-series tracker: Android, iOS and web from one codebase.
 
-- 🏢 &nbsp;I'm currently working at **[DroneShield]**, in Sydney (🇦🇺)
-- 🌐 &nbsp;Visit **[my portfolio website]**
-- 📺 &nbsp;I built and maintain **[ShowTracker]**, a TV series tracker
-- 🎓 &nbsp;I graduated from **[Telecom SudParis]** in 2018
-- 💬 &nbsp;I like to talk about **Chess**, **Climbing**, **Motorbikes**, **Animes**, **TV Shows** (enough to build [a tracker for them][ShowTracker]), **Deep Learning**, **C++** and **RegEx**
-- ♟️ &nbsp;Come and play with me on **[Lichess.org]** or **[Chess.com]**
-- 👀 &nbsp;Follow my *Coding Puzzles* and *Challenges* activities on **[CodinGame]**, **[LeetCode]** and **[HackerRank]**
-- 📫 &nbsp;Connect with me on **[LinkedIn]** or via email (julien.delclos@gmail.com)
-- 🙈 &nbsp;Check out my **[Gists]**
-- ✈️ &nbsp;I worked in Paris-Saclay (CEA-List 🇫🇷), Turin (Cedeo.net 🇮🇹), Stuttgart (Bosch/TnS 🇩🇪), Göteborg ([Zenseact] 🇸🇪) and Montrouge ([Stereolabs] 🇫🇷)
+The full story, with pictures: **[juliendelclos.com][my portfolio website]**.
 
-<br>
+<h2 align="left" id="background">🧳 Background</h2>
 
-<h2 align="left" id="built">🚀 Things I've built</h2>
-
-> Side projects that shipped and are still alive.
-
-- **[ShowTracker]** &mdash; a TV series tracker: what to watch next, how many episodes are
-  left, what's coming out and when. Built it, maintain it, use it.
-- **[My portfolio website][my portfolio website]** &mdash; the hero is a live panoptic-segmentation
-  carousel running on my own photos: auto pre-annotation (Mask R-CNN for the things,
-  MobileSAM for the stuff), a bit of post-processing correction, then a resolve step that composes
-  the final masks and instance boxes. No framework, no build step.
-- **[chesscom-vercel]** &mdash; the little Vercel app that draws the Chess.com cards further
-  down this page. Swap the username in the URL and it works for you too.
+- **[DroneShield]** (Sydney, 2026) &mdash; Senior Computer Vision Engineer.
+- **[Stereolabs]** (Paris, 2024–2026) &mdash; ZED SDK: real-time detection + segmentation network deployed with
+  TensorRT/CUDA on Jetson, then Lead Software Engineer coordinating ~20 engineers across 5 teams.
+- **[Zenseact]** (Göteborg, 2022–2024) &mdash; 3D lane detection for ADAS (Volvo, Polestar): multi-task network,
+  real-time C++/CUDA post-processing, quantized TensorRT deployment, safety-critical C++.
+- **Bosch** via Technology & Strategy (Stuttgart area, 2019–2022) &mdash; technical lead on embedded perception:
+  quantized networks on NXP i.MX6 / i.MX8, a GStreamer video pipeline, auto-annotation.
 
 <h2 align="left" id="tech">🛠️ Tech</h2>
-
-> Not exhaustive list of tools, languages, and other things that I like to work with.
 
 <table>
   <tr>
@@ -50,17 +39,49 @@
       </a>
       <br>Python
     </td>
-    <td align="center"  width="96">
+    <td align="center" width="96">
       <a href="#tech">
-        <img src="./img/jupyter.svg" width="48" height="48" alt="Jupyter" />
+        <img src="./img/nvidia.svg" width="48" height="48" alt="CUDA" />
       </a>
-      <br>Jupyter
+      <br>CUDA
     </td>
-    <td align="center"  width="96">
+    <td align="center" width="96">
       <a href="#tech">
-        <img src="./img/vscode.svg" width="48" height="48" alt="VSCode" />
+        <img src="./img/nvidia.svg" width="48" height="48" alt="TensorRT" />
       </a>
-      <br>VSCode
+      <br>TensorRT
+    </td>
+    <td align="center" width="96">
+      <a href="#tech">
+        <img src="./img/gstreamer.svg" width="48" height="48" alt="GStreamer" />
+      </a>
+      <br>GStreamer
+    </td>
+    <td align="center" width="96">
+      <a href="#tech">
+        <img src="./img/opencv.svg" width="48" height="48" alt="OpenCV" />
+      </a>
+      <br>OpenCV
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="#tech">
+        <img src="./img/pytorch.svg" width="48" height="48" alt="PyTorch" />
+      </a>
+      <br>PyTorch
+    </td>
+    <td align="center" width="96">
+      <a href="#tech">
+        <img src="./img/linux.svg" width="48" height="48" alt="Linux" />
+      </a>
+      <br>Linux
+    </td>
+    <td align="center" width="96">
+      <a href="#tech">
+        <img src="./img/docker.svg" width="48" height="48" alt="Docker" />
+      </a>
+      <br>Docker
     </td>
     <td align="center" width="96">
       <a href="#tech">
@@ -74,50 +95,34 @@
       </a>
       <br>Bazel
     </td>
-  </tr>
-  <tr>
     <td align="center" width="96">
-      <a href="#tech" >
-        <img src="./img/linux.svg" width="48" height="48" alt="Linux" />
-      </a>
-      <br>Linux
-    </td>
-    <td align="center" width="96">
-      <a href="#tech" >
-        <img src="./img/docker.svg" width="48" height="48" alt="Docker" />
-      </a>
-      <br>Docker
-    </td>
-    <td align="center"  width="96">
       <a href="#tech">
-        <img src="./img/opencv.svg" width="48" height="48" alt="OpenCV" />
+        <img src="./img/vscode.svg" width="48" height="48" alt="VSCode" />
       </a>
-      <br>OpenCV
-    </td>
-    <td align="center" width="96">
-      <a href="#tech" >
-        <img src="./img/pytorch.svg" width="48" height="48" alt="PyTorch" />
-      </a>
-      <br>PyTorch
-    </td>
-    <td align="center" width="96">
-      <a href="#tech" >
-        <img src="./img/miro.svg" width="48" height="48" alt="Miro" />
-      </a>
-      <br>Miro
-    </td>
-    <td align="center" width="96">
-      <a href="#tech" >
-        <img src="./img/jira.svg" width="48" height="48" alt="Jira" />
-      </a>
-      <br>Jira
+      <br>VSCode
     </td>
   </tr>
 </table>
 
+<h2 align="left" id="contact">📫 Contact</h2>
+
+**[LinkedIn]** · **[julien.delclos@gmail.com](mailto:julien.delclos@gmail.com)** · **[juliendelclos.com][my portfolio website]**
+
+<br>
+
+<h2 align="left" id="about-me">😀 About me</h2>
+
+- 💬 &nbsp;I like to talk about **Chess**, **Climbing**, **Motorbikes**, **Animes**, **TV Shows** (enough to build [a tracker for them][ShowTracker]), **Deep Learning**, **C++** and **RegEx**
+- ♟️ &nbsp;Come and play with me on **[Lichess.org]** or **[Chess.com]**
+- 👀 &nbsp;Follow my *Coding Puzzles* and *Challenges* activities on **[CodinGame]**, **[LeetCode]** and **[HackerRank]**
+- 🙈 &nbsp;Check out my **[Gists]**
+- 🎓 &nbsp;Engineering degree (MSc) from **[Telecom SudParis]**
+- ✈️ &nbsp;I worked in Paris-Saclay (CEA-List 🇫🇷), Turin (Cedeo.net 🇮🇹), Stuttgart (Bosch/TnS 🇩🇪), Göteborg ([Zenseact] 🇸🇪), Paris ([Stereolabs] 🇫🇷) and Sydney ([DroneShield] 🇦🇺, 2026)
+
 <h2 align="left" id="certifications">🎓 Certifications</h2>
 
-> From time to time, lets try to learn new things or to consolidate existing skills.
+<details>
+  <summary>Deep learning, OpenCV and competitive-programming certificates</summary>
 
 - Coursera - DeepLearning.ai
   1. <a href="https://www.coursera.org/account/accomplishments/certificate/97PU3C7NJSLQ">Neural Networks and Deep Learning</a>
@@ -136,6 +141,8 @@
       - Problem Solving (<a href="https://www.hackerrank.com/certificates/baec44ae8e68">Basic</a> / <a href="https://www.hackerrank.com/certificates/b420d1c21061">Intermediate</a>)
       - Python (<a href="https://www.hackerrank.com/certificates/0b21a0a1990d">Basic</a>)
 
+</details>
+
 <h2 align="left" id="leetcode">👨‍💻 LeetCode</h2>
 
 > If I'm not lazy, I do at least the daily puzzle.
@@ -152,7 +159,7 @@
 >   - The daily game I'm currently playing (vercel [link](https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJujuD))
 >   - The last games I've finished (vercel [link](https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJujuD))
 >
-> (You can replace my username with yours in the vercel link)
+> (Drawn by my [chesscom-vercel] app: you can replace my username with yours in the vercel link)
 
 <a href="https://www.chess.com/member/LuckyJujuD">
   <img src="https://chesscom-vercel-jujudel.vercel.app/chess-current-games/?username=LuckyJujuD" align="center">
@@ -162,23 +169,9 @@
   <img src="https://chesscom-vercel-jujudel.vercel.app/chess-last-games/?username=LuckyJujuD" align="center">
 </a>
 
-<h2 align="left" id="mbti">🧩 MBTI, for what it's worth</h2>
+<h2 align="left" id="stats">🔥 My GitHub stats</h2>
 
-Most recent MBTI result:
-
-<a href="https://www.16personalities.com/profiles/7fd4a3833c7be">
-  <img alt="MBTI Julien now" src="./metrics/metrics.plugin.16personalities.svg" />
-</a>
-
-Previous MBTI result:
-
-<a href="https://www.16personalities.com/esfp-personality">
-  <img alt="MBTI Julien then" src="./metrics/metrics.plugin.16personalities.prev.svg" />
-</a>
-
-<h2 align="left" id="stats">🔥 My Github stats</h2>
-
-> It looks like I'm not using Github a lot! Right?
+> It looks like I'm not using GitHub a lot! Right?
 >
 > *Note that these stats only reflects my public repos and doesn't reflect experience or skill level.*
 
@@ -204,6 +197,10 @@ Previous MBTI result:
 [HackerRank]: https://www.hackerrank.com/julien_delclos "HackerRank Profile"
 [Gists]: https://gist.github.com/JujuDel "JujuDel Gists"
 [chesscom-vercel]: https://github.com/JujuDel/chesscom-vercel "The Vercel app behind the Chess.com cards"
-[ShowTracker]: https://showtracker.dev "ShowTracker — track TV shows, episodes left and upcoming releases"
+[ShowTracker]: https://juliendelclos.com/#p-showtracker "ShowTracker — what it is, and how to ask for access"
 [my portfolio website]: https://juliendelclos.com "Julien's portfolio website"
+[portfolio-code]: https://github.com/JujuDel/JujuDel.github.io "Source code of juliendelclos.com"
+[zed-sdk]: https://github.com/stereolabs/zed-sdk "ZED SDK samples and releases"
+[zed-python-api]: https://github.com/stereolabs/zed-python-api "ZED SDK Python API"
+[panoptic-prelabel]: https://github.com/JujuDel/panoptic-prelabel "Semi-automatic panoptic annotation: Mask R-CNN + MobileSAM, CVAT correction, COCO-panoptic resolve"
 
