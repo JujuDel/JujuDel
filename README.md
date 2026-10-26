@@ -1,6 +1,6 @@
 <h1 align="left" id="title">👋 Hello there! I'm Julien DELCLOS</h1>
 
-<h3 align="left">Senior Computer Vision Engineer &mdash; real-time perception on NVIDIA edge (C++ · CUDA · TensorRT), 3D vision. French (EU citizen)</h3>
+<h3 align="left">Senior Computer Vision Engineer &amp; tech lead &mdash; real-time perception on NVIDIA edge (C++ · CUDA · TensorRT), 3D vision. French (EU citizen), based in Stockholm 🇸🇪 (from Dec 2026)</h3>
 
 <h2 align="left" id="work">🧭 Selected work</h2>
 
@@ -17,7 +17,9 @@ The full story, with pictures: **[juliendelclos.com][my portfolio website]**.
 
 - **[DroneShield]** (Sydney, 2026) &mdash; Senior Computer Vision Engineer.
 - **[Stereolabs]** (Paris, 2024–2026) &mdash; ZED SDK: real-time detection + segmentation network deployed with
-  TensorRT/CUDA on Jetson, then Lead Software Engineer coordinating ~20 engineers across 5 teams.
+  TensorRT/CUDA on Jetson, then Lead Software Engineer: led the SDK team (5 engineers), coordinated ~20 people
+  across 5 teams, shipped ZED SDK 5.1 → 5.3 (51–85% lower CPU load on Jetson AGX with up to 8 GMSL cameras,
+  public release notes).
 - **[Zenseact]** (Göteborg, 2022–2024) &mdash; 3D lane detection for ADAS (Volvo, Polestar): multi-task network,
   real-time C++/CUDA post-processing, quantized TensorRT deployment, safety-critical C++.
 - **Bosch** via Technology & Strategy (Stuttgart area, 2019–2022) &mdash; technical lead on embedded perception:
@@ -117,7 +119,7 @@ The full story, with pictures: **[juliendelclos.com][my portfolio website]**.
 - 👀 &nbsp;Follow my *Coding Puzzles* and *Challenges* activities on **[CodinGame]**, **[LeetCode]** and **[HackerRank]**
 - 🙈 &nbsp;Check out my **[Gists]**
 - 🎓 &nbsp;Engineering degree (MSc) from **[Telecom SudParis]**
-- ✈️ &nbsp;I worked in Paris-Saclay (CEA-List 🇫🇷), Turin (Cedeo.net 🇮🇹), Stuttgart (Bosch/TnS 🇩🇪), Göteborg ([Zenseact] 🇸🇪), Paris ([Stereolabs] 🇫🇷) and Sydney ([DroneShield] 🇦🇺, 2026)
+- ✈️ &nbsp;I worked in Paris-Saclay (CEA-List 🇫🇷), Turin (Cedeo.net 🇮🇹), Stuttgart (Bosch/TnS 🇩🇪), Göteborg ([Zenseact] 🇸🇪), Paris ([Stereolabs] 🇫🇷) and Sydney ([DroneShield] 🇦🇺, 2026); now settling in Stockholm 🇸🇪
 
 <h2 align="left" id="certifications">🎓 Certifications</h2>
 
